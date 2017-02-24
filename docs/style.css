@@ -1,0 +1,130 @@
+.cont-0{
+    background-color: orange;
+    background-image: url("images/cell_light.jpg");
+    display: block;
+    box-shadow: 3px 3px 12px rgba(0,0,0,.8),
+    inset 0 2px 0 rgba(255,255,255,.5),
+    0 2px 0 rgba(0,0,0,.2),
+    inset 0 0 5px rgba(0,0,0,.2);
+
+    position: relative;
+    margin: auto;
+    font-size: 0;
+    width: 625px;
+    height: 625px;  }
+
+
+.cont-1{
+    background-color: black;
+    background-image: url("images/cell_dark.jpg");
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 3px 3px;
+    font-size: 0;
+    width: 600px;
+    height: 600px;  }
+
+.cont-2{
+    background-color: black;
+    display: inline-block;
+    margin: auto;
+    width: 600px;
+    height: 75px;  }
+
+.cell{
+    background-color: whitesmoke;
+    display: inline-block;
+    position: relative;
+    width: 75px;
+    height: 75px;  }
+
+.row .cell:nth-child(2n+1){
+    background-image: url("images/cell_light.jpg");  }
+
+.row .cell:nth-child(2n+2){
+    background-image: url("images/cell_dark.jpg");  }
+
+.row-invert .cell:nth-last-child(2n+1){
+    background-image: url("images/cell_light.jpg");  }
+
+.row-invert .cell:nth-last-child(2n+2){
+    background-image: url("images/cell_dark.jpg");  }
+
+
+.row:nth-last-child(2n+6) .cell:nth-child(even) .sh{
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-image: url("images/black_1.png");
+    background-size: 65px;
+    background-repeat: no-repeat;  }
+
+.row-invert:nth-last-child(7) .cell:nth-child(odd) .sh{
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-image: url("images/black_1.png");
+    background-size: 65px;
+    background-repeat: no-repeat;  }
+
+.row-invert:nth-child(2n+6) .cell:nth-child(odd) .sh{
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-image: url("images/white_1.png");
+    background-size: 65px;
+    background-repeat: no-repeat;  }
+
+.row:nth-child(7) .cell:nth-child(even) .sh{
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-image: url("images/white_1.png");
+    background-size: 65px;
+    background-repeat: no-repeat;  }
+
+/*.sh{*/
+    /*width: 25px;*/
+    /*height: 25px;*/
+/*}*/
+
+.sh:hover{
+    zoom: 0.99;
+    /*position: absolute;*/
+    /*top: 15px;*/
+    /*left: 5px;*/
+    /*border: 1px solid black;*/
+    /*border-radius: 50%;*/
+    /*padding: -10px;*/
+    /*box-shadow: 0 0 10px rgba(0,0,0,.8);*/
+    /*background-size: 65px;*/
+    /*background-color: red;*/
+}
+
+/*.cell:hover {*/
+    /*color: black;*/
+/*}*/
+
+
+
+
+
+
+
+ 
+
+
